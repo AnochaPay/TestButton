@@ -189,7 +189,7 @@
                                             <DoubleAnimation Storyboard.TargetName="glassCube"
                                                              Storyboard.TargetProperty="(Rectangle.RenderTransform).(TransformGroup.Children)[1].(RotateTransform.Angle)"
                                                              By="360"
-                                                             Duration="0:0:0.5" />
+                                                             Duration="0:0:0.1" />
                                         </Storyboard>
                                     </BeginStoryboard>
                                 </EventTrigger.Actions>
