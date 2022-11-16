@@ -25,5 +25,11 @@
                 Margin="52,274,0,0"
                 VerticalAlignment="Top"
                 Width="146" />
+        <Button Content="Button"
+                HorizontalAlignment="Left"
+                Height="75"
+                Margin="488,111,0,0"
+                VerticalAlignment="Top"
+                Width="238" />
     </Grid>
 </Window>
