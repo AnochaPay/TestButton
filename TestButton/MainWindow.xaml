@@ -5,13 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TestButton"
         mc:Ignorable="d"
-        Title="AnimatedButton" Height="400" Width="800"
+        Title="AnimatedButton"
+        Height="400"
+        Width="800"
         Background="Black">
-    <Grid  HorizontalAlignment="Left" Height="400" Width="800">
-        <Button x:Name="bt_test1" 
-                Content="Button" 
-                HorizontalAlignment="Left" 
-                Height="73" Margin="52,53,0,0" VerticalAlignment="Top" Width="104"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="72" Margin="218,182,0,0" VerticalAlignment="Top" Width="146"/>
+    <Grid  HorizontalAlignment="Left"
+           Height="400"
+           Width="800">
+        <Button x:Name="bt_test1"
+                Content="Button"
+                HorizontalAlignment="Left"
+                Height="73"
+                Margin="52,53,0,0"
+                VerticalAlignment="Top"
+                Width="104" />
+        <Button Content="Button"
+                HorizontalAlignment="Left"
+                Height="72"
+                Margin="52,274,0,0"
+                VerticalAlignment="Top"
+                Width="146" />
     </Grid>
 </Window>
